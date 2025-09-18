@@ -1,6 +1,6 @@
 ﻿namespace Infrastructure.Models;
 
-public interface FileResult
+public class FileResult
 {
     public bool Succeeded { get; set; }
     public string? Error { get; set; }
